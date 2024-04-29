@@ -1,0 +1,26 @@
+/* buttons */
+.button {
+  padding: 10px 32px;
+  min-width: 200px;
+  border-width: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: inherit;
+  color: var(--primary-white-color);
+  text-align: center;
+
+  &--primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: #2196f3;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  &--primary:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #188ce8;
+  }
+}
