@@ -4,3 +4,16 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
+
+/* sections */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
