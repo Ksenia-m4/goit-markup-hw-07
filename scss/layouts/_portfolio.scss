@@ -22,12 +22,12 @@
   display: block;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.cards__link:hover,
-.cards__link:focus {
-  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
-    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  &:hover,
+  &:focus {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16),
+      0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  }
 }
 
 .cards__link:hover .cards__overlay {
