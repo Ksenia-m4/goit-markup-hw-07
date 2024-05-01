@@ -503,9 +503,9 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="container footer__container">
+      <div class="container footer-container">
         <div class="footer-nav">
-          <a href="./index.html" lang="en" class="logo"
+          <a href="./index.html" lang="en" class="logo footer-logo"
             ><span class="logo__accent">Web</span>Studio</a
           >
           <address class="footer-address">
@@ -546,7 +546,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="icon--dark-mode">
+                <svg class="footer-follow__icon icon--dark-mode">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -558,7 +558,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="icon--dark-mode">
+                <svg class="footer-follow__icon icon--dark-mode">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -570,7 +570,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="icon--dark-mode">
+                <svg class="footer-follow__icon icon--dark-mode">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -582,7 +582,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="icon--dark-mode">
+                <svg class="footer-follow__icon icon--dark-mode">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -613,12 +613,12 @@
     <!-- modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close class="button-close">
-          <svg class="button-close__icon" width="18" height="18">
+        <button data-modal-close class="modal-btn">
+          <svg class="modal-btn__icon" width="18" height="18">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
 
         <!-- modal-form -->
 
@@ -699,7 +699,10 @@
             </label>
           </div>
 
-          <button type="submit" class="button button--primary modal-button">
+          <button
+            type="submit"
+            class="button button--primary modal-button__submit"
+          >
             Відправити
           </button>
         </form>

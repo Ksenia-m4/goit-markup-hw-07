@@ -8,17 +8,16 @@
   }
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-  column-gap: 50px;
-}
-
-/* navigation */
 .navigation {
   display: flex;
   align-items: center;
   margin-right: auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
 }
 
 .header-nav__link {

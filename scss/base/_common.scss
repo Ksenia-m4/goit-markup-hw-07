@@ -9,11 +9,11 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.section__title {
-  color: var(--secondary-text-color);
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  text-align: center;
+  &__title {
+    color: var(--secondary-text-color);
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
 }
